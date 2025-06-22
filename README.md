@@ -3,9 +3,20 @@ Project Overview
 This project focuses on data ingestion and preprocessing for Ethiopian-based Telegram e-commerce channels. The goal is to collect, clean, and structure messages containing product listings, prices, and locations. Additionally, a subset of the dataset is labeled in CoNLL format for Named Entity Recognition (NER) tasks.
 
 
-Amharic E-commerce Data Extractor
-Project Overview
-This project focuses on data ingestion and preprocessing for Ethiopian-based Telegram e-commerce channels. The goal is to collect, clean, and structure messages containing product listings, prices, and locations. Additionally, a subset of the dataset is labeled in CoNLL format for Named Entity Recognition (NER) tasks.
+Task 1: Data Ingestion & Preprocessing
+Objective
+- Fetch messages from at least 5 Ethiopian Telegram e-commerce channels.
+- Extract text, images, and documents in real-time.
+- Preprocess text data for entity extraction.
+Steps
+- Identify & Connect to relevant Telegram channels using a custom scraper.
+- Implement a message ingestion system to collect data in real-time.
+- Preprocess text data:
+- Tokenization
+- Normalization (handling Amharic-specific linguistic features)
+- Cleaning & structuring metadata (sender, timestamp, message content)
+- Store preprocessed data in a structured format for further analysis.
+
 
 
 Task 2: Labeling Dataset in CoNLL Format
